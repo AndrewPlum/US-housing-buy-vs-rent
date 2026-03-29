@@ -1,9 +1,9 @@
 # Vandal_Hackathon_2026_Team_Quantimaniacs
-## Code Overview
+## US Housing Rent vs Buy Analysis Code Overview
 - This code was created while competing in a hackathon held by the University of Idaho quantitative barker trading club which was 6 hours of coding. 
 - The jupyter notebook contains initial gathering of data via APIs and analysis concerning whether it is better to rent or buy using the 5% rule.
 	- The 5% rule is a heuristic which compares the unrecoverable costs of renting vs buying. If the median rent of an area (in this analysis it is counties) is less than 5% of the median home price divided by 12 then it indicates that it is better to rent. Why 5%? The threshold of 5% can vary on a few factors all though empirical analysis support it as a general rule of thumb. 5% accounts for the unrecoverable costs of owning a home: 1% from property taxes, 1% from maintenance costs, and 3% from the cost of capital (opportunity cost of investing in assets such as stocks which historically have a greater risk return profile).
-## General Code Details
+## Technical Code Details
 - Will need API keys from the Department of Housing and Urban Development to request the rent data of each county, FRED to request the median home price data of each county, and the OpenRouter API key to have chatbot functionality. 
 - Python package requirements: pandas matplotlib plotly requests flask
 - Folder with the app version with the most functionality is "chatbox_sandbox". "dev_WIP" contains miscellaneous residual files created anywhere in the development phase. "frontend" contains the version of the app where we first integrated all of the separate code and developed an initial frontend. "initial_data_and_analysis" contains a jupyter notebook of the initial data gathering code via API requests and data analysis code as well as the saved csv file.
